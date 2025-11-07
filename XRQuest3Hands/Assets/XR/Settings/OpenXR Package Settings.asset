@@ -136,8 +136,6 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 6594794764714809431}
-  - {fileID: -6279820910075561303}
   - {fileID: 1083139846170092866}
   - {fileID: -3895592008224925994}
   - {fileID: 5527496756029059706}
@@ -147,6 +145,7 @@ MonoBehaviour:
   - {fileID: 5418064039692086479}
   - {fileID: -4627566291117151754}
   - {fileID: 8334657466469865114}
+  - {fileID: 6594794764714809431}
   - {fileID: -5384541519392369932}
   - {fileID: 3974961219212187080}
   - {fileID: -2304483258949963008}
@@ -161,6 +160,7 @@ MonoBehaviour:
   - {fileID: -4858270314911684858}
   - {fileID: -6048876176521347768}
   - {fileID: 4588691292268006367}
+  - {fileID: -6279820910075561303}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -243,11 +243,11 @@ MonoBehaviour:
   m_Name: MetaHandTrackingAim Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Meta Hand Tracking Aim
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
+  openxrExtensionStrings: XR_FB_hand_tracking_aim
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &-5384541519392369932
@@ -425,12 +425,12 @@ MonoBehaviour:
   m_Name: HandTracking Android
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
-  priority: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
   required: 0
 --- !u!114 &-2940643586085207950
 MonoBehaviour:
@@ -840,6 +840,7 @@ MonoBehaviour:
   - {fileID: 5879483215277512573}
   - {fileID: 5829861596956335933}
   - {fileID: -5916454214615787919}
+  - {fileID: -5490720993101961956}
   - {fileID: -2137553040418987251}
   - {fileID: 8928237222965371950}
   - {fileID: 8539701530179655226}
@@ -855,6 +856,7 @@ MonoBehaviour:
   - {fileID: -4985827625787013946}
   - {fileID: -2940643586085207950}
   - {fileID: -9032195354756808775}
+  - {fileID: -3536123214895306743}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -1060,7 +1062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
   m_Name: HandInteractionProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteraction
